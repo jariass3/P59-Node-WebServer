@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página web | Demo</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home </a>
+                    <a class="nav-item nav-link" href="acercade.html">Acerca de</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">Bienvenido</p>
+            <hr class="my-4">
+            <p>Esta página esta diseñada y dasarollada con el uso de boostrap para mejorar el estilo de la página</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+        </div>
+
+
+
+
+        <div class="fixed-bottom">
+
+            <footer class="bg-light text-center text-dark">
+
+                <div class="container  p-1 pb-0">
+                    <!-- Seccion: Social media -->
+                    <section class="mb-0">
+                        <!-- Facebook -->
+                        <a class="btn btn-floating m-1" href="https://www.facebook.com/" role="button" target="_BLANK">
+                            <img src="assets/img/facebook.png" height="30px" />
+                        </a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-floating m-1" href="https://twitter.com/?lang=es" role="button" target="_BLANK">
+                            <img src="assets/img/twitter.png" height="30px" />
+                        </a>
+
+                        <!-- Github -->
+                        <a class="btn btn-floating m-1" href="https://github.com/jariass3" role="button" target="_BLANK">
+                            <img src="assets/img/github.png" height="30px" />
+                        </a>
+                    </section>
+                </div>
+
+
+                <!-- Copyright -->
+                <div class="text-center p-3">
+                    © 2020 Copyright:
+                    <a class="refe" href="#">JoelArias</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+    </div>
+</body>
+
+
+
+</html>
